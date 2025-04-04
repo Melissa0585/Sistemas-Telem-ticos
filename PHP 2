@@ -1,0 +1,16 @@
+<?php
+// r1.php
+$nombre = $_POST['midato'];
+
+
+
+if($_SERVER['REQUEST_METHOD'] == 'POST')
+{
+ if (isset($_REQUEST['dato'])){
+    $rfid = $_REQUEST['dato'];
+  }else{
+   echo "no existe variable";
+}
+        echo $rfid;
+}
+?>
