@@ -1,0 +1,10 @@
+Crear un Servidor Privado Virtual VPS en Oracle Cloud,
+con VCN por default , 
+crear las respectivas llaves pública y privada con criptografía asimétrica
+confirmar que puedes acceder por medio de ssh a tu VPS 
+instalar Ubuntu 24.02 
+Configurar el firewall con los puertos http, https,ssh, ftp
+Instalar Hestia como panel de control de tu VPS, confirmar que los servidores web base de datos mysql estén funcionando.
+Comprar y configurar un dominio y configurar con tu ip publica proporcionado en tu VPS
+Subir los archivos por medio de SCP utilizando el protocolo SHH.
+Confirmar que funcione http request con php para acceder a la BD de mysql.
