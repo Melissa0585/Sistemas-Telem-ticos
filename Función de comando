@@ -1,2 +1,0 @@
-chown -R root:www-data /etc/phpmyadmin/
-
