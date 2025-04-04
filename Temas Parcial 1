@@ -1,4 +1,5 @@
-Crear un Servidor Privado Virtual VPS en Oracle Cloud,
+Crear un Servidor Privado Virtual VPS en Oracle Cloud: si quieres obtener más información sobre este paso puedes consultar el siguiente link:
+https://www.knownhost.com/cloud-hosting?aid=1fbdf8c5&d1=google&d2=19712463512&gad_source=1&gclid=Cj0KCQjwhr6_BhD4ARIsAH1YdjCbeGFVcwuiUiKNC1979-RfvZ9nIkVk9isR4Te8_CQoWsMJFqgirpEaAuZXEALw_wcB
 con VCN por default , 
 crear las respectivas llaves pública y privada con criptografía asimétrica
 confirmar que puedes acceder por medio de ssh a tu VPS 
