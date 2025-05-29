@@ -1,0 +1,36 @@
+// Función que simula una consulta a una API
+function consultarAPI(): Promise<string> {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      const exito = true; // Cambiar a false para simular un error
+      if (exito) {
+        resolve("Datos obtenidos con éxito");
+      } else {
+        reject("Error al obtener los datos");
+      }
+    }, 2000);
+  });
+}
+
+// Función asíncrona que maneja la consulta
+async function obtenerDatos(): Promise<void> {
+  try {
+    const resultado = await consultarAPI();
+    console.log(resultado); // Salida: Datos obtenidos con éxito
+  } catch (error) {
+    console.error(error); // Salida: Error al obtener los datos
+  }
+}
+
+// Llamada a la función asíncrona
+obtenerDatos();
+
+
+
+consultarAPI: Esta función devuelve una Promise que simula una operación asíncrona (como una consulta a una API). 
+Después de 2 segundos, se resuelve o se rechaza según el valor de la variable exito.
+urianviera.com
+
+obtenerDatos: Es una función marcada con async, lo que significa que siempre devuelve una Promise.
+Dentro de esta función, utilizamos await para esperar a que la Promise de consultarAPI se resuelva o se rechace. 
+Si se resuelve, se imprime el resultado; si se rechaza, se captura el error en el bloque catch
