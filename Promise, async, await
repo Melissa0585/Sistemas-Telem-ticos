@@ -1,5 +1,5 @@
 // Función que simula una consulta a una API
-function consultarAPI(): Promise<string> {
+import function consultarAPI(): Promise<string> {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       const exito = true; // Cambiar a false para simular un error
