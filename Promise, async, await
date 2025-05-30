@@ -1,14 +1,18 @@
 // Función que simula una consulta a una API
-import function consultarAPI(): Promise<string> {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
+import function consultarAPI(): Promise<string> {  //Declara la función que devuelve
+promesa con un valor string
+
+  return new Promise((resolve, reject) => { //crea y retorna promesa con parametros
+resolve y reflect
+
+    setTimeout(() => { //simula operación asincrona
       const exito = true; // Cambiar a false para simular un error
-      if (exito) {
+      if (exito) { // const simula si operacion fue exitosa
         resolve("Datos obtenidos con éxito");
       } else {
         reject("Error al obtener los datos");
       }
-    }, 2000);
+    }, 2000); //despues de 2 seg se ejecuta funcion
   });
 }
 
